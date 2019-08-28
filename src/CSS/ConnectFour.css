@@ -1,0 +1,84 @@
+.connectFour{
+    /* width: 400px !important; */
+}
+
+.drop-zone > li {
+    height: 35px !important;
+    width: 35px !important;
+    padding: 8px;
+    margin: 3px;
+    background: #eee;
+    /* background: #fff; */
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+li.col-6 { 
+    width: calc(50% - 6px) !important;
+}
+
+.black {
+    background-color: black;
+}
+
+.red {
+    background-color: red;
+}
+
+.drop-zone > li.black:hover {
+    background-color: black;
+}
+
+.drop-zone > li.red:hover {
+    background-color: red;
+}
+
+.next-player > li.black {
+    background-color: black;
+}
+
+.next-player > li.red {
+    background-color: red;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  background: #ccc;
+  width: auto;
+}
+
+.game-info {
+  margin-left: 20px;
+}
+
+.left{text-align: left;}
+
+.right{text-align: right;}
+
+body{
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 2px;
+    padding-left: 0px;
+    overflow: hidden;
+}
+
+li {
+    border: 2px;
+    float: left;
+    height: 35px !important;
+    width: 35px !important;
+    padding: 8px;
+    margin: 3px;
+    background: #eee;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+li.col-6 { 
+    width: calc(50% - 6px) !important;
+}
